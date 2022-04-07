@@ -6,11 +6,11 @@ mkdir -p org
 
 (cd org
   if [ ! -e morisawa-biz-ud-gothic-fonts.zip ]; then
-      curl -O -L https://github.com/googlefonts/morisawa-biz-ud-gothic/releases/download/v1.0.0-correctedBuild/morisawa-biz-ud-gothic-fonts.zip
+      curl -O -L https://github.com/googlefonts/morisawa-biz-ud-gothic/releases/download/v1.002/morisawa-biz-ud-gothic-fonts.zip
   fi
 
   if [ ! -e morisawa-biz-ud-mincho-fonts.zip ]; then
-      curl -O -L https://github.com/googlefonts/morisawa-biz-ud-mincho/releases/download/v1.0.0-correctedBuild/morisawa-biz-ud-mincho-fonts.zip
+      curl -O -L https://github.com/googlefonts/morisawa-biz-ud-mincho/releases/download/v1.002/morisawa-biz-ud-mincho-fonts.zip
   fi
   unzip -o morisawa-biz-ud-gothic-fonts.zip
   unzip -o morisawa-biz-ud-mincho-fonts.zip
