@@ -18,9 +18,10 @@ mkdir -p org
 
 mkdir -p fonts
 for TTF in org/morisawa-biz-ud-*-fonts/fonts/ttf/*.ttf; do
+    NEW_FONT_NAME="$(basename "${TTF}" | sed -e 's/BIZ/SUB/' -e 's/.ttf/.woff2/')"
     uv run pyftsubset "${TTF}" \
 	       --text-file=jis1.txt \
 	       --layout-features='*' \
 	       --flavor=woff2 \
-	       --output-file="fonts/$(basename "${TTF}" .ttf)-subset.woff2"
+	       --output-file="fonts/${NEW_FONT_NAME}"
 done
