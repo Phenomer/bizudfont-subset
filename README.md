@@ -27,3 +27,7 @@ jis1.txtを編集してください。
 ## 参考
 - [Wikipedia - JIS X 0213漢字一覧の1面](https://ja.wikipedia.org/wiki/JIS_X_0213%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7%E3%81%AE1%E9%9D%A2)
 - [Wikipedia - JIS X 0213非漢字一覧](https://ja.wikipedia.org/wiki/JIS_X_0213%E9%9D%9E%E6%BC%A2%E5%AD%97%E4%B8%80%E8%A6%A7)
+
+## ライセンス
+このスクリプトはMIT Licenseです。
+フォントのライセンスはSIL OPEN FONT LICENSE Version 1.1です。
